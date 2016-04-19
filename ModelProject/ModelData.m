@@ -56,7 +56,7 @@
     [array addObject:dict4];
     [array addObject:dict5];
     
-    NSLog(@"%@",array);
+   
     
     return array;
 }

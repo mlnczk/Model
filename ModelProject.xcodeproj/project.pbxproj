@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CECF8DBE1CC6D6C600C8FDD5 /* DetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF8DBC1CC6D6C600C8FDD5 /* DetailsTableViewCell.m */; };
+		CECF8DBF1CC6D6C600C8FDD5 /* DetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF8DBD1CC6D6C600C8FDD5 /* DetailsTableViewCell.xib */; };
+		CECF8DC71CC6E85800C8FDD5 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF8DC21CC6E85800C8FDD5 /* JSONModel.m */; };
+		CECF8DC81CC6E85800C8FDD5 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF8DC41CC6E85800C8FDD5 /* JSONModelClassProperty.m */; };
+		CECF8DC91CC6E85800C8FDD5 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF8DC61CC6E85800C8FDD5 /* JSONModelError.m */; };
+		CECF8DD01CC6E86C00C8FDD5 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF8DCB1CC6E86C00C8FDD5 /* JSONAPI.m */; };
+		CECF8DD11CC6E86C00C8FDD5 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF8DCD1CC6E86C00C8FDD5 /* JSONHTTPClient.m */; };
+		CECF8DD21CC6E86C00C8FDD5 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF8DCF1CC6E86C00C8FDD5 /* JSONModel+networking.m */; };
+		CECF8DD71CC6E87800C8FDD5 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF8DD41CC6E87800C8FDD5 /* JSONKeyMapper.m */; };
+		CECF8DD81CC6E87800C8FDD5 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF8DD61CC6E87800C8FDD5 /* JSONValueTransformer.m */; };
+		CECF8DDC1CC6E8F400C8FDD5 /* Gunwo.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF8DDB1CC6E8F400C8FDD5 /* Gunwo.m */; };
 		CED83D931CC1079C007C5DC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED83D921CC1079C007C5DC9 /* main.m */; };
 		CED83D961CC1079C007C5DC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED83D951CC1079C007C5DC9 /* AppDelegate.m */; };
 		CED83D991CC1079C007C5DC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED83D981CC1079C007C5DC9 /* ViewController.m */; };
@@ -17,6 +28,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CECF8DBB1CC6D6C600C8FDD5 /* DetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsTableViewCell.h; sourceTree = "<group>"; };
+		CECF8DBC1CC6D6C600C8FDD5 /* DetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsTableViewCell.m; sourceTree = "<group>"; };
+		CECF8DBD1CC6D6C600C8FDD5 /* DetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsTableViewCell.xib; sourceTree = "<group>"; };
+		CECF8DC11CC6E85800C8FDD5 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModel/JSONModel.h"; sourceTree = "<group>"; };
+		CECF8DC21CC6E85800C8FDD5 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModel/JSONModel.m"; sourceTree = "<group>"; };
+		CECF8DC31CC6E85800C8FDD5 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModel/JSONModelClassProperty.h"; sourceTree = "<group>"; };
+		CECF8DC41CC6E85800C8FDD5 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModel/JSONModelClassProperty.m"; sourceTree = "<group>"; };
+		CECF8DC51CC6E85800C8FDD5 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModel/JSONModelError.h"; sourceTree = "<group>"; };
+		CECF8DC61CC6E85800C8FDD5 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModel/JSONModelError.m"; sourceTree = "<group>"; };
+		CECF8DCA1CC6E86C00C8FDD5 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModelNetworking/JSONAPI.h"; sourceTree = "<group>"; };
+		CECF8DCB1CC6E86C00C8FDD5 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModelNetworking/JSONAPI.m"; sourceTree = "<group>"; };
+		CECF8DCC1CC6E86C00C8FDD5 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModelNetworking/JSONHTTPClient.h"; sourceTree = "<group>"; };
+		CECF8DCD1CC6E86C00C8FDD5 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModelNetworking/JSONHTTPClient.m"; sourceTree = "<group>"; };
+		CECF8DCE1CC6E86C00C8FDD5 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		CECF8DCF1CC6E86C00C8FDD5 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		CECF8DD31CC6E87800C8FDD5 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModelTransformations/JSONKeyMapper.h"; sourceTree = "<group>"; };
+		CECF8DD41CC6E87800C8FDD5 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModelTransformations/JSONKeyMapper.m"; sourceTree = "<group>"; };
+		CECF8DD51CC6E87800C8FDD5 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModelTransformations/JSONValueTransformer.h"; sourceTree = "<group>"; };
+		CECF8DD61CC6E87800C8FDD5 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = "../../../Downloads/JSONModel-master-2/JSONModel/JSONModelTransformations/JSONValueTransformer.m"; sourceTree = "<group>"; };
+		CECF8DDA1CC6E8F400C8FDD5 /* Gunwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gunwo.h; sourceTree = "<group>"; };
+		CECF8DDB1CC6E8F400C8FDD5 /* Gunwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gunwo.m; sourceTree = "<group>"; };
 		CED83D8E1CC1079C007C5DC9 /* ModelProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED83D921CC1079C007C5DC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CED83D941CC1079C007C5DC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +74,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CECF8DC01CC6E79D00C8FDD5 /* pods */ = {
+			isa = PBXGroup;
+			children = (
+				CECF8DCA1CC6E86C00C8FDD5 /* JSONAPI.h */,
+				CECF8DCB1CC6E86C00C8FDD5 /* JSONAPI.m */,
+				CECF8DCC1CC6E86C00C8FDD5 /* JSONHTTPClient.h */,
+				CECF8DCD1CC6E86C00C8FDD5 /* JSONHTTPClient.m */,
+				CECF8DD31CC6E87800C8FDD5 /* JSONKeyMapper.h */,
+				CECF8DD41CC6E87800C8FDD5 /* JSONKeyMapper.m */,
+				CECF8DD51CC6E87800C8FDD5 /* JSONValueTransformer.h */,
+				CECF8DD61CC6E87800C8FDD5 /* JSONValueTransformer.m */,
+				CECF8DCE1CC6E86C00C8FDD5 /* JSONModel+networking.h */,
+				CECF8DCF1CC6E86C00C8FDD5 /* JSONModel+networking.m */,
+				CECF8DC11CC6E85800C8FDD5 /* JSONModel.h */,
+				CECF8DC21CC6E85800C8FDD5 /* JSONModel.m */,
+				CECF8DC31CC6E85800C8FDD5 /* JSONModelClassProperty.h */,
+				CECF8DC41CC6E85800C8FDD5 /* JSONModelClassProperty.m */,
+				CECF8DC51CC6E85800C8FDD5 /* JSONModelError.h */,
+				CECF8DC61CC6E85800C8FDD5 /* JSONModelError.m */,
+			);
+			name = pods;
+			sourceTree = "<group>";
+		};
+		CECF8DD91CC6E8CD00C8FDD5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CECF8DDA1CC6E8F400C8FDD5 /* Gunwo.h */,
+				CECF8DDB1CC6E8F400C8FDD5 /* Gunwo.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		CED83D851CC1079C007C5DC9 = {
 			isa = PBXGroup;
 			children = (
@@ -61,10 +125,13 @@
 		CED83D901CC1079C007C5DC9 /* ModelProject */ = {
 			isa = PBXGroup;
 			children = (
+				CECF8DD91CC6E8CD00C8FDD5 /* model */,
+				CECF8DC01CC6E79D00C8FDD5 /* pods */,
 				CED83D941CC1079C007C5DC9 /* AppDelegate.h */,
-				CED83DA81CC107BD007C5DC9 /* ModelData.h */,
-				CED83DA91CC107BD007C5DC9 /* ModelData.m */,
 				CED83D951CC1079C007C5DC9 /* AppDelegate.m */,
+				CECF8DBB1CC6D6C600C8FDD5 /* DetailsTableViewCell.h */,
+				CECF8DBC1CC6D6C600C8FDD5 /* DetailsTableViewCell.m */,
+				CECF8DBD1CC6D6C600C8FDD5 /* DetailsTableViewCell.xib */,
 				CED83D971CC1079C007C5DC9 /* ViewController.h */,
 				CED83D981CC1079C007C5DC9 /* ViewController.m */,
 				CED83D9A1CC1079C007C5DC9 /* Main.storyboard */,
@@ -79,6 +146,8 @@
 		CED83D911CC1079C007C5DC9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CED83DA81CC107BD007C5DC9 /* ModelData.h */,
+				CED83DA91CC107BD007C5DC9 /* ModelData.m */,
 				CED83D921CC1079C007C5DC9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +212,7 @@
 			files = (
 				CED83DA11CC1079C007C5DC9 /* LaunchScreen.storyboard in Resources */,
 				CED83D9E1CC1079C007C5DC9 /* Assets.xcassets in Resources */,
+				CECF8DBF1CC6D6C600C8FDD5 /* DetailsTableViewCell.xib in Resources */,
 				CED83D9C1CC1079C007C5DC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,9 +224,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECF8DD11CC6E86C00C8FDD5 /* JSONHTTPClient.m in Sources */,
+				CECF8DC91CC6E85800C8FDD5 /* JSONModelError.m in Sources */,
+				CECF8DC81CC6E85800C8FDD5 /* JSONModelClassProperty.m in Sources */,
+				CECF8DD01CC6E86C00C8FDD5 /* JSONAPI.m in Sources */,
+				CECF8DD81CC6E87800C8FDD5 /* JSONValueTransformer.m in Sources */,
 				CED83D991CC1079C007C5DC9 /* ViewController.m in Sources */,
 				CED83DAA1CC107BD007C5DC9 /* ModelData.m in Sources */,
+				CECF8DD71CC6E87800C8FDD5 /* JSONKeyMapper.m in Sources */,
+				CECF8DD21CC6E86C00C8FDD5 /* JSONModel+networking.m in Sources */,
+				CECF8DBE1CC6D6C600C8FDD5 /* DetailsTableViewCell.m in Sources */,
+				CECF8DC71CC6E85800C8FDD5 /* JSONModel.m in Sources */,
 				CED83D961CC1079C007C5DC9 /* AppDelegate.m in Sources */,
+				CECF8DDC1CC6E8F400C8FDD5 /* Gunwo.m in Sources */,
 				CED83D931CC1079C007C5DC9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
